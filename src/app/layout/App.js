@@ -3,7 +3,7 @@ class App extends Component {
   render() {
     return (
       <div>
-        <h1>Unite</h1>
+        <h1>Unite App</h1>
       </div>
     );
   }
