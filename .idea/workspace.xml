@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="84d2ece2-7551-4513-8ad5-d411c0423716" name="Default" comment="Creating Event list and adding all attendee and items">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/features/event/EventForm/EventForm.js" />
+    <list default="true" id="84d2ece2-7551-4513-8ad5-d411c0423716" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/features/event/EventForm/EventForm.js" afterPath="$PROJECT_DIR$/src/features/event/EventForm/EventForm.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/features/event/eventDashboard/EventDashboard.js" afterPath="$PROJECT_DIR$/src/features/event/eventDashboard/EventDashboard.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/features/event/eventList/EventList.js" afterPath="$PROJECT_DIR$/src/features/event/eventList/EventList.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/features/event/eventList/EventListAttendee.js" afterPath="$PROJECT_DIR$/src/features/event/eventList/EventListAttendee.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/features/event/eventList/EventListItem.js" afterPath="$PROJECT_DIR$/src/features/event/eventList/EventListItem.js" />
     </list>
     <ignored path="unite.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -695,7 +698,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1528005143514</updated>
-      <workItem from="1528005144950" duration="3761000" />
+      <workItem from="1528005144950" duration="4237000" />
     </task>
     <task id="LOCAL-00001" summary="setting up dependencies">
       <created>1528017881427</created>
@@ -718,11 +721,18 @@
       <option name="project" value="LOCAL" />
       <updated>1528199490971</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="adding Event Form">
+      <created>1528200426469</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1528200426469</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3761000" />
+    <option name="totallyTimeSpent" value="4237000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="683" height="799" extended-state="0" />
@@ -771,7 +781,8 @@
     <MESSAGE value="setting up dependencies" />
     <MESSAGE value="Created Navbar component and adding styles on them" />
     <MESSAGE value="Creating Event list and adding all attendee and items" />
-    <option name="LAST_COMMIT_MESSAGE" value="Creating Event list and adding all attendee and items" />
+    <MESSAGE value="adding Event Form" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding Event Form" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
