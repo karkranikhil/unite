@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import {Container} from 'semantic-ui-react'
-import EventDashboard from '../../features/event/eventDashboard/EventDashboard.js';
+import EventDashboard from '../../features/event/EventDashboard/EventDashboard.js';
 import NavBar from '../../features/nav/NavBar/NavBar';
 
 class App extends Component {
@@ -11,7 +11,6 @@ class App extends Component {
         <Container className="main">
           <EventDashboard/>
         </Container>
-        
       </div>
     );
   }
