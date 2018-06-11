@@ -20,10 +20,23 @@ componentDidMount(){
         })
     }
 }
+
+componentWillReceiveProps(nextProps){
+    console.log('current', this.props.selectedEvent)
+    console.log('next', nextProps.selectedEvent)
+    if(nextProps.selectedEvent !== this.props.selectedEvent){
+        this.setState({
+            event:nextProps.selectedEvent || emptyEvent
+        })
+    }
+}
     onFormSubmit=(event)=>{
         event.preventDefault()
-        this.props.createEvent(this.state.event)
-
+        if(this.state.event.id){
+            this.props.updateEvent(this.state.event)
+        } else {
+            this.props.createEvent(this.state.event)
+        }
     }
     onInputChange=(evt)=>{
         const newEvent = this.state.event
