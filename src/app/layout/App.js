@@ -24,7 +24,7 @@ class App extends Component {
             <Switch>
             <Route exact path='/' component={HomePage}/>
               <Route path='/events' component={EventDashboard}/>
-              <Route path='/events' component={TestComponent}/>
+              <Route path='/test' component={TestComponent}/>
               <Route path='/events/:id' component={EventDetailedPage}/>
               <Route path='/people' component={PeopleDashboard}/>
               <Route path='/profile/:id' component={UserDetailed}/>
