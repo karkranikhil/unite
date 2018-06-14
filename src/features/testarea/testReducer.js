@@ -13,8 +13,8 @@ export const decrementCounter = (state,payload)=>{
     return {...state, data:state.data-1};
 }
 export default createReducer(initialState,{
-    [INCREMENT_COUNTER]:incrementCounter,
-    [DECREMENT_COUNTER]:decrementCounter
+    INCREMENT_COUNTER:incrementCounter,
+    DECREMENT_COUNTER:decrementCounter
 })
 
 //spread operator create a new copy 
